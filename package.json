@@ -1,0 +1,23 @@
+{
+  "name": "primary",
+  "version": "1.0.0",
+  "description": "Portfólio dos nossos projetos, separado por categoria (menu no topo):",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeN21/hub_hp_solutions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelipeN21/hub_hp_solutions/issues"
+  },
+  "homepage": "https://github.com/FelipeN21/hub_hp_solutions#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
