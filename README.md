@@ -5,6 +5,8 @@ Portfólio dos nossos projetos, separado por categoria (menu no topo):
 | Categoria | Projeto | Link |
 |---|---|---|
 | Overlays | **Pit Overlay's** (Path of Exile 2) | [release no GitHub](https://github.com/FelipeN21/poe2_overlay/releases/latest) |
+| Overlays | **HopeDiff** (League of Legends) | [hopediff.vercel.app](https://hopediff.vercel.app) |
+| Overlays | **Hope Phasmophobia Overlay** (Phasmophobia) | [hope-phasmophobia-overlay.vercel.app](https://hope-phasmophobia-overlay.vercel.app) |
 | Soluções de comunicação | **Tela** (compartilhamento de tela do squad) | [tarkov-multi-screen.vercel.app](https://tarkov-multi-screen.vercel.app) |
 
 Site estático, sem build: `index.html`, `style.css`, `app.js` e `projetos.js`.
