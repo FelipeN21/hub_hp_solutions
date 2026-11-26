@@ -48,19 +48,20 @@ export const PROJETOS = [
     id: 'tela',
     categoria: 'comunicacao',
     nome: 'Tela',
-    jogo: 'Escape from Tarkov',
+    jogo: 'Qualquer jogo, direto no navegador',
     icone: 'assets/projetos/tela-logo.svg',
     imagem: 'assets/projetos/tela-print.png',
     imagemAlt: 'Tela de entrada do Tela, com campos de nome, sala e senha',
     imagemRetrato: false,
     resumo:
       'Compartilhamento de tela entre amigos pelo navegador, com baixo atraso e sem servidor. ' +
-      'O vídeo vai direto do seu PC para o PC de cada amigo, e a sala ainda traz ferramentas de Tarkov para o squad.',
+      'O vídeo vai direto do seu PC para o PC de cada amigo. Serve para qualquer jogo, e já traz uma integração ' +
+      'básica com Escape from Tarkov.',
     destaques: [
       'Vídeo P2P via WebRTC: vai direto de PC para PC, sem passar por servidor',
       'Salas com senha opcional (criptografia com PBKDF2) e link para convidar',
       'Janela PiP por cima do jogo, com layouts, recortes e volume por amigo',
-      'Ferramentas de Tarkov: preços, tarefas, mapas, munição e wishlist do squad',
+      'Integração básica com Escape from Tarkov: preços, tarefas, mapas, munição e wishlist',
       'Spotify Jams da sala e busca rápida com Ctrl+K',
       'Instalável como app (PWA) no Chrome e no Edge',
     ],
