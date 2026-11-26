@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HP Solutions · Projetos</title>
+  <meta name="description" content="Portfólio de projetos: overlays para jogos e soluções de comunicação para o squad.">
+  <meta name="theme-color" content="#0b0d12">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <header class="topo">
+    <div class="topo-conteudo">
+      <a class="marca" href="#todos" aria-label="HP Solutions, início">
+        <img src="assets/favicon.svg" alt="" width="32" height="32">
+        <span>HP <strong>Solutions</strong></span>
+      </a>
+      <nav class="menu" aria-label="Categorias de projetos">
+        <ul id="menu" role="tablist"></ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="sobretitulo">Portfólio</p>
+      <h1>Ferramentas que a gente fez para jogar melhor.</h1>
+      <p class="hero-texto">
+        Projetos pessoais feitos a quatro mãos: overlays que trazem a informação para dentro do jogo
+        e soluções para o squad se comunicar sem atrito.
+      </p>
+    </section>
+
+    <section class="secao" aria-live="polite">
+      <div class="secao-cabecalho">
+        <h2 id="secao-titulo">Todos os projetos</h2>
+        <p id="secao-descricao"></p>
+      </div>
+      <div id="projetos" class="projetos"></div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>HP Solutions · projetos pessoais, sem ligação com os desenvolvedores dos jogos citados.</p>
+    <p><a href="https://github.com/FelipeN21" target="_blank" rel="noopener">github.com/FelipeN21</a></p>
+  </footer>
+
+  <noscript><p class="sem-js">Ative o JavaScript para ver os projetos.</p></noscript>
+</body>
+</html>
